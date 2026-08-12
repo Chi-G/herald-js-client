@@ -1,5 +1,5 @@
 {
-  "name": "@forahia/herald-client",
+  "name": "@chi-g/herald-client",
   "version": "1.0.0",
   "description": "Official TypeScript & JavaScript SDK for Herald Multi-Tenant Notification Engine",
   "main": "./dist/index.js",
@@ -23,7 +23,7 @@
     "webhooks",
     "react-hooks"
   ],
-  "author": "Forahia Solutions",
+  "author": "Chi-G",
   "license": "MIT",
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0"

@@ -1,4 +1,4 @@
-# @forahia/herald-client
+# @chi-g/herald-client
 
 > Official Open-Source JavaScript & TypeScript SDK for **Herald** — Multi-Tenant Notification & Webhook Delivery Engine.
 
@@ -23,11 +23,11 @@
 ## 📦 Installation
 
 ```bash
-npm install @forahia/herald-client
+npm install @chi-g/herald-client
 # or
-yarn add @forahia/herald-client
+yarn add @chi-g/herald-client
 # or
-pnpm add @forahia/herald-client
+pnpm add @chi-g/herald-client
 ```
 
 ---
@@ -37,7 +37,7 @@ pnpm add @forahia/herald-client
 ### 1. Basic Client Usage (Node.js / Browser)
 
 ```typescript
-import { HeraldClient } from "@forahia/herald-client";
+import { HeraldClient } from "@chi-g/herald-client";
 
 const herald = new HeraldClient({
   baseUrl: "http://localhost:8080", // Herald-API server URL
@@ -63,7 +63,7 @@ console.log("Notification queued:", notification.id);
 
 ```tsx
 import React, { useState } from "react";
-import { heraldClient, useNotificationStatus } from "@forahia/herald-client";
+import { heraldClient, useNotificationStatus } from "@chi-g/herald-client";
 
 export function NotificationTracker() {
   const [notificationId, setNotificationId] = useState<string | null>(null);
@@ -110,4 +110,4 @@ export function NotificationTracker() {
 ---
 
 ## 📄 License
-MIT License &copy; Forahia Solutions.
+MIT License &copy; Chi-G.
