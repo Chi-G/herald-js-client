@@ -26,7 +26,7 @@ export function useNotificationFeed(options: UseNotificationFeedOptions = {}) {
   const fetchFeed = useCallback(async () => {
     try {
       const data = await client.listNotifications({ status, limit });
-      setNotifications(data);
+      setNotifications(data ?? []);
       setError(null);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to fetch notification feed");
