@@ -12,7 +12,7 @@
 `herald-js-client` provides typed API bindings and pre-built React hooks for interacting with the **Herald API**. It is built for 3 core use-cases:
 
 1. **Product Integrations**:
-   Trigger email, SMS, and push notifications directly from web apps (e.g., *AuraMed* appointment reminders, *StoreCore* order updates, *Forahia LMS* assignment alerts).
+   Trigger email, SMS, and push notifications directly from web apps (e.g., *AuraMed* appointment reminders, *StoreCore* order updates, *LMS* assignment alerts).
 2. **Real-Time Delivery Tracking**:
    Subscribe to live notification status updates using `useNotificationStatus` and `useNotificationFeed` to display real-time sending indicators in your admin panels.
 3. **Powering Custom SaaS Dashboards**:
